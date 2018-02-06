@@ -1,0 +1,3055 @@
+strong {
+  font-weight: bold;
+}
+
+.body {
+  background-color: #6ce4df;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.body.question {
+  background-color: #42d3bc;
+}
+
+.navcont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-container-navigation {
+  display: block;
+  width: 200vh;
+  float: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 120%;
+  -ms-flex: 0 0 120%;
+  flex: 0 0 120%;
+  border-radius: 0px;
+  background-color: #67cee2;
+  color: transparent;
+  text-align: center;
+}
+
+.navlink {
+  margin: 0px;
+  padding: 14px;
+  -webkit-transition: color 283ms ease;
+  transition: color 283ms ease;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navlink:hover {
+  color: #e6e2e2;
+}
+
+.navlink.w--current {
+  margin: 0px;
+  padding: 15px;
+  border: 2px none #000;
+  border-radius: 10px;
+  color: #0a0a0a;
+  font-size: 18px;
+}
+
+.nav-mo {
+  display: block;
+  float: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: transparent;
+}
+
+.slider-div {
+  display: block;
+  width: 84%;
+  height: 70vh;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 120%;
+  -ms-flex: 0 0 120%;
+  flex: 0 0 120%;
+}
+
+.slider {
+  width: 100%;
+  height: 70vh;
+  background-color: transparent;
+}
+
+.nav-co {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.hero-sec {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.urunler {
+  display: block;
+  width: 84%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.urunler-content {
+  margin-top: 0px;
+  padding-top: 21px;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-subtitle {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 45px;
+  margin-left: auto;
+  padding: 6px;
+  color: #fafafa;
+  font-size: 17px;
+  text-align: center;
+}
+
+.urun-div {
+  width: auto;
+  height: auto;
+  max-width: 350px;
+  border-radius: 15px;
+  background-color: #dfdfdf;
+}
+
+.urun-div.baslangc-paket {
+  display: none;
+}
+
+.urun-head {
+  width: auto;
+  height: 15%;
+  max-height: 15%;
+  padding-top: 9px;
+  padding-left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #df3535;
+  text-transform: uppercase;
+}
+
+.urun-head.mini-p {
+  padding-top: 8px;
+  background-color: #e41a1c;
+}
+
+.urun-head.standart-p {
+  background-color: #377eb8;
+}
+
+.urun-head.sper-p {
+  background-color: #4daf4a;
+}
+
+.urun-head.mega-p {
+  background-color: #984ea3;
+}
+
+.urun-head.bileklik-p {
+  background-color: #ff7f00;
+}
+
+.urun-acklama {
+  width: auto;
+  height: 85%;
+  max-height: 85%;
+  margin-top: 11px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.navo {
+  z-index: 4;
+  display: block;
+  width: 84%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  border-style: none;
+  border-color: #fff;
+  background-color: #ee4141;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-menu {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
+  float: none;
+  background-color: #ee4141;
+}
+
+.wrapper {
+  margin-top: 24px;
+}
+
+.urunbaslk {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.uurn-colm {
+  margin-bottom: 15px;
+}
+
+.wro {
+  padding: 7px 9px 15px;
+}
+
+.some-mesgy {
+  font-size: 10px;
+}
+
+.list-blok {
+  margin-bottom: 2px;
+  padding-left: 30px;
+  font-size: 15.4px;
+  font-weight: 600;
+}
+
+.list-blok.profesyonelpaket {
+  font-size: 14px;
+}
+
+.price {
+  margin-bottom: 16px;
+  padding-top: 0px;
+}
+
+.price.space {
+  margin-bottom: 13px;
+  padding-top: 43px;
+}
+
+.price.space.pro {
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+
+.price.space.desigik {
+  padding-top: 25px;
+}
+
+.price.super-price {
+  margin-top: 15px;
+  margin-bottom: 14px;
+}
+
+.price.super-price.plus-adjust {
+  margin-top: 49px;
+}
+
+.price.super-price.plus-adjust.one {
+  margin-top: 39px;
+}
+
+.price.mini-price {
+  margin-bottom: 9px;
+  padding-top: 26px;
+}
+
+.bilgilendirme {
+  margin-bottom: 13px;
+  color: #eb1414;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.high-price-tag {
+  margin-bottom: 11px;
+  padding-left: 0px;
+  float: none;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #2c2a2a;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+.high-price-tag.low {
+  width: 150px;
+  height: auto;
+  margin-bottom: 0px;
+  padding-left: 8px;
+  font-family: Vollkorn, serif;
+  color: #ff1616;
+  font-size: 35px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.high-price-tag.kyms {
+  font-size: 27px;
+}
+
+.yerine {
+  padding-left: 24px;
+  font-family: Vollkorn, serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.yerine.sadece {
+  margin-bottom: 9px;
+  padding-left: 21px;
+}
+
+.satn-al-butonu {
+  display: block;
+  border-radius: 15px;
+  background-color: #df3535;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.satn-al-butonu.mini-p-b {
+  background-color: #e41a1c;
+}
+
+.satn-al-butonu.starndart-p-b {
+  background-color: #377eb8;
+}
+
+.satn-al-butonu.super-p-button {
+  background-color: #4daf4a;
+}
+
+.satn-al-butonu.mega-p-b {
+  background-color: #984ea3;
+}
+
+.satn-al-butonu.bileklik-p-button {
+  background-color: #ff7f00;
+}
+
+.urn-wor {
+  margin-bottom: 23px;
+}
+
+.r-letter {
+  background-color: transparent;
+  color: rgba(231, 0, 0, .86);
+  text-transform: uppercase;
+}
+
+.eletter {
+  color: #03ec44;
+  text-transform: uppercase;
+}
+
+.n-letter {
+  color: #b60de0;
+  text-transform: uppercase;
+}
+
+.kletter {
+  color: #21d545;
+  text-transform: uppercase;
+}
+
+.l-letter {
+  color: #eb780e;
+  text-transform: uppercase;
+}
+
+.i-letter {
+  color: #cc1eb7;
+  text-transform: uppercase;
+}
+
+.silver-letter {
+  color: #686565;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.bileklik-allcaps {
+  text-transform: uppercase;
+}
+
+.messenger {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 445px;
+  margin: 0px;
+  padding: 14px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #d696bb;
+  text-decoration: none;
+}
+
+.faebook-msg-title {
+  padding: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.slide1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 55px;
+  background-color: transparent;
+}
+
+.siparis-destek {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  margin-left: 0px;
+  padding: 11px 34px 11px 11px;
+  border-radius: 20px;
+  background-color: #eae8e8;
+  background-image: -webkit-linear-gradient(270deg, #a7a7a7, #eae8e8);
+  background-image: linear-gradient(180deg, #a7a7a7, #eae8e8);
+  color: dimgrey;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.telefon-siparis {
+  position: relative;
+  left: -30px;
+  top: 1px;
+  z-index: 1;
+  display: inline-block;
+  padding: 12px 30px 12px 59px;
+  border-radius: 20px;
+  background-color: #ee4141;
+  background-image: url('../images/auricular-phone-symbol-in-a-circle.svg');
+  background-position: 2px 50%;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.heading-1 {
+  margin-top: 11px;
+  padding: 6px 37px 12px 34px;
+  border: 2px solid #eb0909;
+  border-radius: 25px;
+  background-color: #eee;
+  background-image: -webkit-radial-gradient(circle farthest-corner at 109% -12%, #e0e0e0, #fff);
+  background-image: radial-gradient(circle farthest-corner at 109% -12%, #e0e0e0, #fff);
+  box-shadow: 6px 6px 41px -8px #000;
+  color: #eb0909;
+  font-size: 30px;
+  line-height: 39px;
+  font-weight: 800;
+}
+
+.subtitl2 {
+  margin-bottom: 9px;
+  padding: 10px 22px 8px 34px;
+  border: 2px solid #2d34d6;
+  border-radius: 10px;
+  background-color: #eee;
+  color: #2d34d6;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.head-er1 {
+  display: block;
+  width: 350px;
+  height: 200px;
+  margin-top: 17px;
+  border: 3px solid #ee4141;
+  border-radius: 25px;
+  background-image: url('../images/rsz_isimli_anahtarlık_toptan_satış.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head-er1.slide-2-grsel {
+  background-color: #fcfcfc;
+  background-image: url('../images/www.isimlianahtar.com_isimli_anahtar_görsel.jpg'), -webkit-linear-gradient(0deg, #f3f3f3, #e9e9e9 30%, #fff);
+  background-image: url('../images/www.isimlianahtar.com_isimli_anahtar_görsel.jpg'), linear-gradient(90deg, #f3f3f3, #e9e9e9 30%, #fff);
+  background-position: 50% 62%, 0px 0px;
+  background-size: contain, auto;
+  background-repeat: no-repeat, repeat;
+}
+
+.isimli-anahtarlk-yapls-button {
+  position: static;
+  display: block;
+  width: 75%;
+  margin-top: 23px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 9px;
+  padding-left: 9px;
+  border-radius: 15px;
+  background-color: #ee4141;
+  -webkit-transition: background-color 333ms ease;
+  transition: background-color 333ms ease;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.isimli-anahtarlk-yapls-button:hover {
+  background-color: #000;
+}
+
+.right-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 38px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.left-arrow {
+  margin-left: -17px;
+}
+
+.right-arrow {
+  margin-right: -17px;
+}
+
+.mssnger-con {
+  width: 150px;
+}
+
+.tumbi-isim {
+  width: 200px;
+  height: 40px;
+  margin-top: 13px;
+}
+
+.ligh-box {
+  width: 200px;
+  height: 40px;
+}
+
+.content-wrapper {
+  padding: 12px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 1px 1px 37px -9px #000;
+}
+
+.all-cont-heading {
+  margin-bottom: 20px;
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cont-p {
+  padding: 17px;
+  border-radius: 15px;
+  background-color: #e9ecee;
+  text-transform: none;
+}
+
+.tantm-videosu {
+  width: 100%;
+  height: 200px;
+}
+
+.lightboz {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 90%;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 25px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .57), rgba(0, 0, 0, .57)), url('../images/hasank.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .57), rgba(0, 0, 0, .57)), url('../images/hasank.jpg');
+  background-position: 0px 0px, 53% 50%;
+  background-size: auto, cover;
+  box-shadow: 6px 6px 21px -4px #f0ebeb;
+  text-decoration: line-through;
+}
+
+.tumb-mg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 51px;
+}
+
+.sml-hak {
+  margin-bottom: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+.rightdiv {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.facebook-like {
+  margin-top: 12px;
+  margin-bottom: 13px;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.tm-dnyaya-gnderi {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 320px;
+  margin-top: -19px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border-radius: 10px;
+  background-image: url('../images/dunya.jpg');
+  background-position: 50% 16%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cont-wrapper {
+  padding: 23px 0px;
+}
+
+.text-div {
+  display: inline-block;
+  width: 60%;
+}
+
+.mg-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  margin-top: 44px;
+  float: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.destek1 {
+  margin-right: 5px;
+  padding: 9px 43px 9px 11px;
+  float: left;
+  border-radius: 25px;
+  background-color: #0098ff;
+  background-image: -webkit-linear-gradient(270deg, #b9b9b9, #fff);
+  background-image: linear-gradient(180deg, #b9b9b9, #fff);
+  color: #7a7575;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.telefon1 {
+  display: inline-block;
+  margin-left: -44px;
+  padding: 10px 15px 11px 46px;
+  border-radius: 20px;
+  background-color: #ee4141;
+  background-image: url('../images/auricular-phone-symbol-in-a-circle.svg');
+  background-position: 0px 50%;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.hero-head {
+  display: inline-block;
+  width: 80%;
+  margin-top: 17px;
+  margin-bottom: -12px;
+  padding-top: 7px;
+  padding-right: 0px;
+  padding-bottom: 6px;
+  border: 2px solid #ee4141;
+  border-radius: 15px;
+  background-color: #f5f5f5;
+  font-family: 'Open Sans', sans-serif;
+  color: #ee4141;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.hero-head.subtitle {
+  border-color: #3853e2;
+  color: #3853e2;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.hero-head.subsub {
+  color: #3853e2;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.mg {
+  margin-bottom: 31px;
+  border: 2px solid #ee4141;
+  border-radius: 25px;
+}
+
+.butonarlk {
+  display: block;
+  width: 65%;
+  padding-right: 5px;
+  padding-left: 10px;
+  border-radius: 15px;
+  background-color: #ee4141;
+  font-weight: 600;
+}
+
+.soru-cevap {
+  display: block;
+  width: 84%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .38), rgba(0, 0, 0, .38)), url('../images/hasank.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .38), rgba(0, 0, 0, .38)), url('../images/hasank.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.soru-cevap-heading {
+  width: 50%;
+  margin-top: 0px;
+  color: #fff;
+  line-height: 48px;
+  text-align: center;
+}
+
+.contact1 {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100;
+  display: none;
+  width: 100%;
+  height: auto;
+  background-color: #2c25c9;
+  background-image: -webkit-linear-gradient(270deg, #070707, grey);
+  background-image: linear-gradient(180deg, #070707, grey);
+}
+
+.cont-wrap {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-bottom: -24px;
+  margin-left: auto;
+}
+
+.siparis-bilgi-hatt {
+  width: 23%;
+  margin-top: 0px;
+  padding: 20px 13px 13px;
+  float: left;
+}
+
+.left-phone-icon {
+  float: left;
+}
+
+.sibih {
+  display: inline-block;
+  margin-bottom: 11px;
+  margin-left: 0px;
+  float: right;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.phone-sipo {
+  display: inline-block;
+  margin-left: 0px;
+  float: right;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.sizi-arayalm {
+  width: 20%;
+  padding: 13px 13px 13px 32px;
+  float: left;
+}
+
+.sizi-arayalm-heding {
+  margin-top: 3px;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.from-1 {
+  width: 57%;
+  padding: 13px;
+  float: right;
+}
+
+.form-in {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.submit-form {
+  height: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  float: left;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  background-color: #ee4141;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.text-adnz {
+  width: 60%;
+  height: 30px;
+  float: left;
+}
+
+.tlelefon-2 {
+  width: 60%;
+  height: 30px;
+  float: left;
+}
+
+.text-succes {
+  width: 80%;
+  float: left;
+}
+
+.succes-mess {
+  padding: 5px 15px;
+  background-color: #ee4141;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.icon1 {
+  width: 20%;
+  float: right;
+}
+
+.error-message {
+  width: 60%;
+  margin-top: -6px;
+}
+
+.text-error {
+  float: left;
+}
+
+.emoji-error {
+  float: right;
+}
+
+.subtitle {
+  color: #fff;
+}
+
+.soru-cevap-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  background-color: #e0e0e0;
+}
+
+.left-soru-cvp {
+  width: 70%;
+  padding: 10px;
+  float: left;
+}
+
+.srou-cvp-div {
+  padding: 15px;
+}
+
+.ric-text-s-c {
+  width: 80%;
+  padding-left: 28px;
+  color: #2e2e2e;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.right-sec-soru-cevap {
+  width: 30%;
+  padding: 10px;
+  float: left;
+}
+
+.simli-anahtarlk-satn-al {
+  margin-bottom: 16px;
+  padding: 14px;
+  border-radius: 15px;
+  background-color: #a24dff;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.simli-anahtarlk-satn-al.form-1 {
+  display: none;
+  background-color: #ff4d54;
+}
+
+.simli-anahtarlk-satn-al.rn-resimleri {
+  background-color: #ff4d4d;
+}
+
+.link-gzat {
+  margin-top: 16px;
+  float: right;
+  border-radius: 15px;
+  background-color: #081018;
+  font-style: normal;
+}
+
+.div-ucak {
+  height: 200px;
+  background-image: url('../images/dunya.jpg');
+  background-position: 50% 50%;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.urun-icerik-gorsel {
+  margin-top: 20px;
+  margin-bottom: 74px;
+}
+
+.head-gor {
+  display: block;
+  width: 70%;
+  margin: 0px auto 20px;
+  padding: 13px;
+  border: 2px solid #df3535;
+  border-radius: 15px;
+  background-color: #f3f3f3;
+  box-shadow: 1px 1px 35px -14px #000;
+  color: #222020;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.img-for {
+  display: block;
+  width: 50%;
+  height: 300px;
+  margin-right: auto;
+  margin-bottom: 32px;
+  margin-left: auto;
+  border-radius: 15px;
+  background-image: url('../images/rsz_10653697_620674031375936_5141450265521486754_n.jpg');
+  background-position: 50% 101%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 10px -2px #000;
+}
+
+.img-for.taraftar {
+  height: 420px;
+  background-image: url('../images/cumkin.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.renkli-harf {
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 75%, .1), hsla(0, 0%, 75%, .1)), url('../images/isimli-anahtarlik-renkli-harf-www.isimlianahtar.com.jpg');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 75%, .1), hsla(0, 0%, 75%, .1)), url('../images/isimli-anahtarlik-renkli-harf-www.isimlianahtar.com.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.img-for.renkli-harf.renkli-haf-kutu {
+  background-image: url('../images/isimli-anahtarlik-renkli-harf-kutulu.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.bileklik-grsel {
+  width: 65%;
+  height: 350px;
+  background-image: url('../images/isimli-anahtarlik-bilekik-tekli-www.isimlianahtar.com.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.bileklik-grsel.coklu {
+  background-image: url('../images/isimli-anahtarlik-bilekik-stand-www.isimlianahtar.com.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.set-gorsel {
+  background-image: url('../images/isimlianahtarlik.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.arabal {
+  height: 400px;
+  background-image: url('../images/isimlianahtarlik-stiker-1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.arabal.iki {
+  background-image: url('../images/isimlianahtarlik-sticker-2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.img-for.arabal.uc {
+  background-image: url('../images/isimlianahtarlik-sticker-3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.arabal.taraf {
+  background-image: url('../images/cumkin.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.arabal.kucuk {
+  background-image: url('../images/isimlianahtarlik-sticker-5.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.arabal.kuc {
+  background-image: url('../images/IMG-20141215-WA0005.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.arabal.kuo {
+  background-image: url('../images/IMG-20141215-WA0004.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-for.katalog-1 {
+  background-image: url('../images/isimlianahtarlik-cesit.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.katalog-2 {
+  background-image: url('../images/isim-cesit-anahtarlik.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.katalog-3 {
+  background-image: url('../images/DSCF5050.JPG');
+  background-position: 50% 50%;
+  background-size: 300px;
+}
+
+.img-for.katalog-4 {
+  background-image: url('../images/hasank.jpg');
+  background-position: 17% 50%;
+  background-size: cover;
+}
+
+.img-for.katalog5 {
+  background-image: url('../images/isimlianahtarlik-gorsel.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.sip {
+  height: 400px;
+  background-image: url('../images/iletisim-isimli-anahtarlik.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.img-for.arabama {
+  background-image: url('../images/arabali-anahtalik-modelleri-www.isimlianahtar.com.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.gorsel-cont {
+  margin-bottom: 19px;
+  padding: 18px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 7px 7px 32px -12px #000;
+}
+
+.footer {
+  margin-bottom: 0px;
+  padding: 14px;
+  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 50%, #bb4c4c, #100727);
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #bb4c4c, #100727);
+}
+
+.footer.bankalar {
+  margin-bottom: 97px;
+}
+
+.logo-div {
+  width: 20%;
+  margin-right: 12px;
+  float: left;
+  color: #c9b3b3;
+  text-decoration: none;
+}
+
+.logo-head {
+  font-size: 24px;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-footer {
+  width: 25%;
+  padding: 14px;
+  float: left;
+  font-size: 14px;
+}
+
+.menu-footer.iletisim {
+  width: 25%;
+  float: left;
+}
+
+.menu-footer.map {
+  width: 20%;
+}
+
+.menu-footer.sos {
+  width: 30%;
+  float: right;
+}
+
+.site-haritas {
+  margin-bottom: 13px;
+  padding-left: 4px;
+  color: #e0e0e0;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.site-haritas.last {
+  margin-bottom: 37px;
+  font-size: 15px;
+}
+
+.footler-link {
+  margin-bottom: 2px;
+  padding-left: 10px;
+  float: left;
+  clear: left;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  color: #a2a2a2;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.footler-link:hover {
+  color: #c2c2c2;
+}
+
+.info-text {
+  padding-left: 10px;
+  color: #a2a2a2;
+  font-weight: 600;
+}
+
+.sosyal {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  border: 3px solid #bebebe;
+  border-radius: 50%;
+  background-image: url('../images/facebook-letter-logo.svg');
+  background-position: 50% 50%;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  -webkit-transition: all 267ms ease;
+  transition: all 267ms ease;
+}
+
+.sosyal:hover {
+  border-color: #3d3f41;
+  background-color: #3d3f41;
+}
+
+.sosyal.instagram {
+  background-image: url('../images/instagram-logo.svg');
+  background-position: 50% 50%;
+  background-size: 25px;
+}
+
+.sosyal.instagram.d {
+  display: none;
+}
+
+.sosyal.youtube {
+  background-image: url('../images/youtube-logo.svg');
+  background-position: 50% 50%;
+  background-size: 30px;
+}
+
+.sosyal.youtube.d {
+  display: none;
+}
+
+.sosyal.d {
+  display: none;
+}
+
+.div-bank {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bank-fiv {
+  width: 15%;
+  height: 80px;
+  margin: 5px;
+  float: left;
+  border: 2px solid #0f0f0f;
+  border-radius: 15px;
+  background-color: #fff;
+  background-image: url('../images/Ziraat_Bankası_logo.png');
+  background-position: 50% 50%;
+  background-size: 130px;
+  background-repeat: no-repeat;
+}
+
+.bank-fiv.garanti {
+  background-image: url('../images/garanti-logo.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.bank-fiv.akbank {
+  background-image: url('../images/akbank-png.png');
+  background-position: 50% 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.bank-fiv.yapkredi {
+  background-image: url('../images/img_yapi-kredi_29.09.2015_03_06_46.png');
+  background-position: 50% 50%;
+  background-size: 140px;
+}
+
+.bank-fiv.yurt-ici {
+  background-image: url('../images/yurt-ici.png');
+  background-position: 50% 50%;
+  background-size: 130px;
+}
+
+.bank-fiv.ptt {
+  background-image: url('../images/768px-PTTKargo_Logo.png');
+  background-position: 50% 50%;
+  background-size: 80px;
+}
+
+.text-blog {
+  font-size: 12px;
+}
+
+.foto-gallery {
+  display: block;
+  width: 84%;
+  margin: 0px auto;
+  padding-top: 23px;
+  background-color: #eee;
+}
+
+.cont-foto-galry {
+  padding: 10px;
+  background-color: transparent;
+}
+
+.simli-anaharlk-foto-gallery {
+  position: relative;
+  width: 40%;
+  height: 35vh;
+  margin-bottom: 40px;
+  margin-left: 61px;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 4px 4px 19px -9px #000;
+}
+
+.light-box {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  display: block;
+  border-radius: 10px;
+}
+
+.am {
+  display: none;
+}
+
+.div-content {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .34), rgba(0, 0, 0, .34));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .34), rgba(0, 0, 0, .34));
+  opacity: 0;
+  color: #fff;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.foto-div {
+  height: 75%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url('../images/hasank.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.foto-div.sticker {
+  background-image: url('../images/isimlianahtarlik-sticker-3.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+}
+
+.foto-div.biileklik {
+  background-image: url('../images/isimli-anahtarlik-bilekik-stand-www.isimlianahtar.com.jpg');
+  background-position: 50% 50%;
+  background-size: 400px;
+}
+
+.foto-div.dier-mod {
+  background-image: url('../images/DSCF5067.jpg');
+  background-position: 50% 82%;
+  background-size: 500px;
+}
+
+.yazdiv {
+  height: 25%;
+  padding-top: 15px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.letisim-section {
+  display: block;
+  width: 84%;
+  margin-right: auto;
+  margin-bottom: 26px;
+  margin-left: auto;
+  background-color: #a4e9b3;
+  color: #000;
+}
+
+.cont-wrop {
+  padding: 9px;
+}
+
+.comminicate-div {
+  width: 70%;
+  padding: 15px;
+  float: left;
+}
+
+.iletisim-baslk {
+  margin-bottom: 21px;
+  padding-bottom: 14px;
+  border-bottom: 6px solid #000;
+}
+
+.form-wrap {
+  padding-left: 11px;
+}
+
+.adres {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  padding: 18px 15px 15px;
+  float: right;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.adres-baslk {
+  display: inline-block;
+  margin-top: 29px;
+  margin-right: 13px;
+  margin-bottom: 24px;
+  padding-bottom: 23px;
+  float: right;
+  border-bottom: 6px solid #000;
+}
+
+.text-bloko {
+  margin-bottom: 4px;
+  float: right;
+  font-weight: 600;
+  text-align: right;
+}
+
+.adres-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.submit-adres {
+  background-color: #df3535;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.set-section {
+  display: block;
+  width: 84%;
+  margin: 11px auto 21px;
+}
+
+.set-container {
+  padding: 0px;
+}
+
+.basar-text {
+  width: 70%;
+  float: left;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.emoj-div {
+  width: 30%;
+  height: 100px;
+  float: right;
+  background-image: url('../images/Emoji-Smiley-04.png');
+  background-position: 50% 50%;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.suc-mes {
+  background-color: transparent;
+}
+
+.eror-page {
+  margin-top: 24px;
+}
+
+.tex-tex {
+  width: 50%;
+  float: left;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.dislek {
+  width: 10%;
+  height: 30px;
+  float: left;
+  background-image: url('../images/Emoji-Smiley-16.png');
+  background-position: 50% 50%;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.st-ksm {
+  height: 30%;
+  background-color: #f0f0f0;
+}
+
+.head-set {
+  padding: 18px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.left-part {
+  width: 70%;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  float: left;
+}
+
+.sub-uren {
+  display: inline-block;
+  padding: 0px 27px 0px 19px;
+  float: left;
+  border-right: 1px solid #000;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.rewiw {
+  display: inline-block;
+  padding-left: 17px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.rigr-urn {
+  width: 30%;
+  padding: 7px;
+  float: left;
+}
+
+.sipars-link {
+  margin: 23px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sipars-link.standart-1 {
+  background-color: #4daf4a;
+}
+
+.sipars-link.mega-pack {
+  background-color: #984ea3;
+}
+
+.sipars-link.sto {
+  background-color: #377eb8;
+}
+
+.sipars-link.bilek-pack {
+  background-color: #ea7400;
+}
+
+.sipars-link.red {
+  background-color: #df3535;
+}
+
+.acklama {
+  width: 60%;
+  float: left;
+  background-color: transparent;
+}
+
+.ack-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 23px;
+  padding: 33px;
+  float: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #fafafa;
+}
+
+.slayt-run {
+  width: 40%;
+  padding: 26px 12px 7px;
+  float: left;
+}
+
+.slayt-run.best {
+  width: 100%;
+}
+
+.set-cerk-text {
+  display: block;
+  margin-top: 23px;
+  margin-bottom: 31px;
+  padding-bottom: 20px;
+  float: none;
+  border-bottom: 1px solid #000;
+  color: #031ddf;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.icon-set {
+  margin-top: 10px;
+}
+
+.rich-dis {
+  min-width: 100%;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.slide-mini {
+  background-image: url('../images/www.isimlianahtar.com-isimli-anahtarlik-toptan-satiş.jpg');
+  background-position: 50% 100%;
+  background-size: 500px;
+}
+
+.hzl-kargo {
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background-color: #1569e6;
+  background-image: url('../images/delivery-truck.svg');
+  background-position: 91% 50%;
+  background-size: 85px;
+  background-repeat: no-repeat;
+}
+
+.kapda-odeme {
+  display: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #ffd600;
+  background-image: url('../images/home-delivery-service.svg');
+  background-position: 92% 50%;
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.gvenli-alveris {
+  margin-bottom: 12px;
+  border-radius: 10px;
+  background-color: #1cbb73;
+  background-image: url('../images/icon.svg');
+  background-position: 93% 50%;
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.run {
+  display: inline-block;
+  padding: 24px;
+  color: #fff;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.run.black {
+  padding-right: 2px;
+  color: #302e2e;
+  font-size: 21px;
+}
+
+.run.gren {
+  padding-right: 2px;
+}
+
+.sipo-desk {
+  height: 275px;
+  border-radius: 15px;
+  background-image: url('../images/iletisim-isimli-anahtarlik.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.siparis-formu {
+  margin-top: 11px;
+  background-color: #dfdfdf;
+}
+
+.sipo-form-head {
+  padding: 23px;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.form-sip {
+  padding: 34px;
+  text-align: left;
+}
+
+.gonder-form {
+  background-color: #df3535;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.kurum-sip {
+  display: block;
+  width: 84%;
+  margin-right: auto;
+  margin-bottom: 21px;
+  margin-left: auto;
+  background-color: #e9ecee;
+}
+
+.form-kurum-siparis {
+  padding: 39px;
+}
+
+.siparis-kurum-head {
+  display: block;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.subtitle-kurumsal1 {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 16px;
+  margin-left: auto;
+  font-weight: 600;
+  text-align: center;
+}
+
+.radio {
+  display: inline-block;
+  margin-right: 13px;
+}
+
+.form-kurumsal {
+  float: none;
+  clear: left;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.text-kurum-sucs {
+  width: 90%;
+  padding: 27px;
+  float: left;
+  font-weight: 600;
+}
+
+.r-div {
+  width: 10%;
+  float: left;
+  background-image: url('../images/Emoji-Smiley-04.png');
+  background-position: 50% 50%;
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.eror-1 {
+  display: inline;
+  width: 90%;
+  margin-right: 13px;
+}
+
+@media (max-width: 991px) {
+  .slider-div {
+    height: 80vh;
+  }
+  .slider {
+    height: 80vh;
+  }
+  .urun-acklama {
+    font-size: 14px;
+  }
+  .navo {
+    width: 100%;
+  }
+  .urunbaslk {
+    font-size: 18px;
+  }
+  .wro {
+    padding: 5px;
+  }
+  .list-blok {
+    padding-left: 20px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+  .list-blok.profesyonelpaket {
+    font-size: 11px;
+  }
+  .price.space.pro {
+    margin-bottom: 16px;
+  }
+  .tex-bil1 {
+    font-size: 12px;
+  }
+  .high-price-tag {
+    font-size: 20px;
+  }
+  .high-price-tag.low {
+    padding-left: 2px;
+    font-size: 25px;
+  }
+  .r-letter {
+    font-size: 11px;
+  }
+  .eletter {
+    font-size: 11px;
+  }
+  .n-letter {
+    font-size: 11px;
+  }
+  .kletter {
+    font-size: 11px;
+  }
+  .l-letter {
+    font-size: 11px;
+  }
+  .silver-letter {
+    font-size: 11px;
+  }
+  .messenger {
+    height: 460px;
+  }
+  .faebook-msg-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .siparis-destek {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: block;
+    width: 450px;
+    margin-top: 11px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 12px;
+  }
+  .telefon-siparis {
+    position: absolute;
+    left: 251px;
+    top: -57px;
+    right: 0px;
+    display: block;
+    width: 240px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 13px;
+    padding-left: 53px;
+  }
+  .headiv {
+    position: static;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .heading-1 {
+    display: block;
+    padding-left: 20px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .head-er1 {
+    display: block;
+    width: 300px;
+    height: 200px;
+  }
+  .isimli-anahtarlk-yapls-button {
+    display: block;
+  }
+  .cont-p {
+    font-size: 13px;
+  }
+  .tm-dnyaya-gnderi {
+    background-position: 50% 50%;
+    background-size: 300px;
+  }
+  .text-div {
+    width: 100%;
+  }
+  .mg-div {
+    width: 100%;
+  }
+  .destek1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .hero-head {
+    width: 100%;
+  }
+  .mg {
+    display: block;
+    margin: 16px auto 11px;
+  }
+  .butonarlk {
+    width: 40%;
+    text-align: center;
+  }
+  .texbil2 {
+    font-size: 12px;
+  }
+  .header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .siparis-bilgi-hatt {
+    display: none;
+  }
+  .soru-cevap-section {
+    background-color: transparent;
+  }
+  .srou-cvp-div {
+    margin-bottom: 12px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+  }
+  .head-gor {
+    font-size: 23px;
+  }
+  .img-for {
+    width: 70%;
+  }
+  .img-for.katalog-3 {
+    width: 70%;
+  }
+  .img-for.katalog-4 {
+    width: 70%;
+  }
+  .img-for.katalog5 {
+    width: 70%;
+  }
+  .img-for.sip {
+    width: 70%;
+  }
+  .img-for.arabama {
+    width: 70%;
+  }
+  .logo-head {
+    font-size: 20px;
+  }
+  .menu-footer.sos {
+    width: 30%;
+  }
+  .site-haritas.last {
+    font-size: 13px;
+  }
+  .sosyal {
+    width: 40px;
+    height: 40px;
+    background-size: 20px;
+  }
+  .sosyal.instagram {
+    background-size: 20px;
+  }
+  .sosyal.youtube {
+    background-size: 25px;
+  }
+  .div-bank {
+    padding: 0px;
+  }
+  .bank-fiv {
+    height: 60px;
+    background-size: 90px;
+  }
+  .bank-fiv.akbank {
+    background-size: 100px;
+  }
+  .bank-fiv.yapkredi {
+    background-size: 100px;
+  }
+  .bank-fiv.yurt-ici {
+    background-size: 100px;
+  }
+  .bank-fiv.ptt {
+    background-size: 70px;
+  }
+  .text-blog {
+    font-size: 11px;
+  }
+  .cont-foto-galry {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .simli-anaharlk-foto-gallery {
+    display: block;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .light-box {
+    display: block;
+  }
+  .yazdiv {
+    padding: 9px;
+    font-size: 14px;
+  }
+  .yazdiv._2 {
+    padding-top: 15px;
+  }
+  .comminicate-div {
+    float: left;
+  }
+  .adres-div {
+    float: left;
+  }
+  .left-part {
+    width: 60%;
+    float: left;
+  }
+  .rigr-urn {
+    width: 40%;
+    padding: 9px;
+  }
+  .acklama {
+    width: 50%;
+  }
+  .ack-wrap {
+    margin: 7px;
+    padding: 3px;
+    text-align: center;
+  }
+  .slayt-run {
+    width: 50%;
+  }
+  .rich-dis {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .run {
+    font-size: 21px;
+  }
+  .run.black {
+    font-size: 19px;
+  }
+  .run.black.pot {
+    font-size: 16px;
+  }
+  .run.gren {
+    font-size: 19px;
+  }
+  .run.gren.holt {
+    font-size: 16px;
+  }
+  .run.ot {
+    font-size: 17px;
+  }
+  .sipo-desk {
+    height: 200px;
+    background-size: 200px;
+  }
+  .text-kurum-sucs {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .urun-div {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 14px;
+    margin-left: auto;
+  }
+  .urunbaslk {
+    font-size: 23px;
+  }
+  .wro {
+    padding: 14px;
+  }
+  .list-blok {
+    margin-bottom: 9px;
+    padding-left: 28px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .price.space {
+    padding-top: 0px;
+  }
+  .price.mini-price {
+    display: block;
+    padding-top: 0px;
+  }
+  .high-price-tag {
+    padding-left: 19px;
+    float: left;
+    font-size: 25px;
+  }
+  .high-price-tag.low {
+    padding-left: 32px;
+    float: right;
+    font-size: 30px;
+  }
+  .yerine {
+    padding-left: 24px;
+    float: left;
+    clear: left;
+    font-size: 25px;
+  }
+  .yerine.sadece {
+    padding-left: 30px;
+    float: right;
+  }
+  .messenger {
+    display: block;
+    width: 75%;
+    height: 240px;
+    margin-right: auto;
+    margin-bottom: 26px;
+    margin-left: auto;
+    padding: 15px;
+  }
+  .faebook-msg-title {
+    padding-top: 0px;
+  }
+  .telefon-siparis {
+    left: 168px;
+  }
+  .mssnger-con {
+    display: block;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .content-wrapper {
+    margin-bottom: 25px;
+  }
+  .cont-p {
+    font-size: 14px;
+  }
+  .tm-dnyaya-gnderi {
+    background-size: 400px;
+  }
+  .cont-wrapper {
+    padding: 33px;
+  }
+  .butonarlk {
+    width: 50%;
+  }
+  .sizi-arayalm-heding {
+    margin-top: 1px;
+    font-size: 20px;
+  }
+  .text-adnz {
+    font-size: 12px;
+  }
+  .tlelefon-2 {
+    font-size: 12px;
+  }
+  .soru-cevap-section {
+    display: block;
+    padding: 12px 0px 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .left-soru-cvp {
+    display: block;
+    width: 100%;
+    padding: 21px 3px 21px 2px;
+    float: none;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .srou-cvp-div {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+  }
+  .ric-text-s-c {
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 6px;
+  }
+  .soru-cvp-heding {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .right-sec-soru-cevap {
+    width: 100%;
+    padding-left: 20px;
+    float: none;
+  }
+  .urun-icerik-gorsel {
+    padding: 17px;
+  }
+  .head-gor {
+    width: 80%;
+    font-size: 20px;
+  }
+  .img-for {
+    width: 100%;
+  }
+  .img-for.bileklik-grsel {
+    width: 100%;
+    background-position: 77% 50%;
+  }
+  .img-for.bileklik-grsel.coklu {
+    background-position: -109px 0px;
+  }
+  .img-for.sip {
+    width: 100%;
+    background-position: 0px -37px;
+  }
+  .img-for.arabama {
+    width: 100%;
+  }
+  .footer {
+    padding-top: 1px;
+  }
+  .logo-div {
+    margin-top: 68px;
+    margin-right: 9px;
+    margin-left: 0px;
+  }
+  .logo-head {
+    font-size: 17px;
+  }
+  .menu-footer.iletisim {
+    width: 45%;
+    margin-top: 0px;
+    margin-left: 17px;
+  }
+  .menu-footer.map {
+    width: 30%;
+    margin-top: 0px;
+  }
+  .menu-footer.sos {
+    display: none;
+  }
+  .site-haritas {
+    font-size: 13px;
+  }
+  .footler-link {
+    font-size: 11px;
+    text-align: left;
+  }
+  .sosyal {
+    display: block;
+    margin-top: 28px;
+  }
+  .sosyal.instagram.d {
+    display: block;
+  }
+  .sosyal.youtube.d {
+    display: block;
+  }
+  .sosyal.d {
+    display: block;
+  }
+  .bank-fiv {
+    background-size: 70px;
+  }
+  .bank-fiv.akbank {
+    background-size: 80px;
+  }
+  .bank-fiv.yapkredi {
+    background-size: 80px;
+  }
+  .bank-fiv.yurt-ici {
+    background-size: 80px;
+  }
+  .bank-fiv.ptt {
+    background-size: 60px;
+  }
+  .text-blog {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .simli-anaharlk-foto-gallery {
+    width: 90%;
+    margin-left: 23px;
+  }
+  .comminicate-div {
+    float: left;
+  }
+  .adres {
+    width: 30%;
+    float: left;
+    clear: none;
+  }
+  .basar-text {
+    width: 80%;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .emoj-div {
+    display: block;
+    width: 20%;
+    height: 50px;
+    background-size: 50px;
+  }
+  .suc-mes {
+    padding: 0px;
+  }
+  .tex-tex {
+    width: 80%;
+  }
+  .left-part {
+    padding-left: 7px;
+  }
+  .sipars-link {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .acklama {
+    width: 100%;
+    float: right;
+  }
+  .slayt-run {
+    width: 100%;
+    float: right;
+    clear: none;
+  }
+  .text-kurum-sucs {
+    width: 70%;
+  }
+  .eror-1 {
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 479px) {
+  .urunler-content {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .hero-subtitle {
+    line-height: 21px;
+  }
+  .list-blok {
+    font-size: 12px;
+  }
+  .price.space.desigik {
+    padding-top: 2px;
+  }
+  .price.super-price.plus-adjust {
+    margin-top: 7px;
+  }
+  .high-price-tag {
+    font-size: 23px;
+  }
+  .high-price-tag.low {
+    padding-left: 49px;
+    clear: right;
+    font-size: 27px;
+  }
+  .satn-al-butonu {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .satn-al-butonu.mini-p-b {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .satn-al-butonu.starndart-p-b {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .satn-al-butonu.super-p-button {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .satn-al-butonu.mega-p-b {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .satn-al-butonu.bileklik-p-button {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .messenger {
+    width: 100%;
+    margin-bottom: 19px;
+  }
+  .faebook-msg-title {
+    margin-bottom: 10px;
+    padding: 13px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .headiv {
+    display: block;
+    width: 200px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .heading-1 {
+    position: relative;
+    display: block;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .mssnger-con {
+    width: 80px;
+  }
+  .content-wrapper {
+    margin-bottom: 21px;
+  }
+  .col1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .destek1 {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 28px;
+    padding-left: 15px;
+    float: left;
+    clear: right;
+    font-size: 15px;
+  }
+  .telefon1 {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 29px;
+    padding-left: 66px;
+    float: right;
+    clear: right;
+    font-size: 18px;
+  }
+  .hero-head {
+    padding: 6px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hero-head.subtitle {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .hero-head.subsub {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .butonarlk {
+    width: 100%;
+  }
+  .sizi-arayalm {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    float: none;
+  }
+  .sizi-arayalm-heding {
+    display: block;
+    margin-right: auto;
+    margin-bottom: -12px;
+    margin-left: auto;
+    font-size: 12px;
+    text-align: center;
+  }
+  .from-1 {
+    width: 100%;
+    padding: 8px;
+    float: none;
+  }
+  .head-gor {
+    width: 100%;
+    padding: 9px;
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .img-for {
+    background-size: auto;
+  }
+  .img-for.taraftar {
+    background-position: 89% 0%;
+    background-size: cover;
+  }
+  .img-for.bileklik-grsel {
+    height: 200px;
+  }
+  .img-for.set-gorsel {
+    height: 200px;
+  }
+  .img-for.arabal {
+    height: 200px;
+  }
+  .img-for.katalog-1 {
+    height: 200px;
+  }
+  .img-for.katalog-2 {
+    height: 200px;
+  }
+  .img-for.katalog-3 {
+    width: 100%;
+    height: 200px;
+  }
+  .img-for.katalog-4 {
+    width: 100%;
+    height: 200px;
+  }
+  .img-for.katalog5 {
+    width: 100%;
+    height: 200px;
+  }
+  .img-for.sip {
+    height: 200px;
+    background-position: 0px -16px;
+  }
+  .img-for.arabama {
+    height: 200px;
+  }
+  .footer.bankalar {
+    display: block;
+    width: 100%;
+    height: 38vh;
+    margin-bottom: 105px;
+    padding-bottom: 0px;
+  }
+  .logo-div {
+    width: 100%;
+    margin-top: -7px;
+    text-align: center;
+  }
+  .menu-footer.iletisim {
+    width: 100%;
+    margin-left: 0px;
+    float: left;
+    text-align: center;
+  }
+  .menu-footer.map {
+    display: none;
+    width: 100%;
+    float: left;
+  }
+  .sosyal {
+    display: block;
+    margin-right: 20px;
+    margin-left: 39px;
+  }
+  .sosyal.instagram {
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .sosyal.youtube {
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .div-bank {
+    display: block;
+    margin-top: 13px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .bank-fiv {
+    display: block;
+    width: 45%;
+  }
+  .simli-anaharlk-foto-gallery {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 24px;
+    margin-left: 13px;
+  }
+  .comminicate-div {
+    width: 100%;
+    float: left;
+  }
+  .adres {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .adres-baslk {
+    float: none;
+  }
+  .text-bloko {
+    display: block;
+    float: none;
+    clear: none;
+  }
+  .adres-div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .basar-text {
+    width: 75%;
+  }
+  .emoj-div {
+    width: 25%;
+  }
+  .tex-tex {
+    font-size: 14px;
+  }
+  .dislek {
+    width: 20%;
+  }
+  .head-set {
+    display: block;
+    margin-right: 14px;
+    text-align: center;
+  }
+  .left-part {
+    width: 100%;
+    text-align: center;
+  }
+  .sub-uren {
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+  .rewiw {
+    padding-left: 14px;
+    float: left;
+  }
+  .rigr-urn {
+    width: 100%;
+    margin-top: -41px;
+    margin-bottom: -14px;
+    padding: 19px;
+  }
+  .sipars-link {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #df3535;
+    text-align: center;
+  }
+  .ack-wrap {
+    padding-left: 9px;
+  }
+  .rich-dis {
+    margin-left: -26px;
+    padding-left: 0px;
+  }
+  .hzl-kargo {
+    background-size: 60px;
+  }
+  .kapda-odeme {
+    background-size: 40px;
+  }
+  .gvenli-alveris {
+    background-size: 45px;
+  }
+  .run {
+    padding-left: 17px;
+    font-size: 18px;
+  }
+  .run.black {
+    font-size: 15px;
+  }
+  .run.gren {
+    font-size: 15px;
+  }
+  .form-kurum-siparis {
+    padding: 8px;
+  }
+  .siparis-kurum-head {
+    font-size: 25px;
+  }
+  .subtitle-kurumsal1 {
+    margin-bottom: 21px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .text-kurum-sucs {
+    width: 100%;
+  }
+  .r-div {
+    display: block;
+    width: 100%;
+    margin-top: -24px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .eror-1 {
+    display: inline-block;
+  }
+  .hol-m {
+    display: block;
+    margin: 7px auto 5px;
+  }
+}
+
